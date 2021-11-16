@@ -31,7 +31,7 @@ Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Progr
 Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
 
 . Funktioniert das Generieren?
-. Ist es übersichtlich gestaltet?
+. Wurde das Programm code-effizient geschrieben?
 . Ist die Ausgabe gut leserlich gestaltet?
 . Ist es benutzerfreundlich?
 
@@ -50,7 +50,7 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 |Meilenstein/Ergebnis|Datum
 |Eine Klasse mit Variablen und Methoden kann generiert werden|
 |Ein ganzes Projekt kann generiert werden|
-|Erweiterung Multi-Threading|
+|Performance des Programms verbessern|
 |=======================
 
 == Projektressourcen
