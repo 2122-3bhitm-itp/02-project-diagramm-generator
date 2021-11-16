@@ -16,25 +16,53 @@ ifdef::backend-html5[]
 
 == Projektbezeichnung
 
+Diagramm Generator
+
 == Projektauftraggeber
+
+Prof. Mag. Dr. Thomas Stütz
 
 == Projekthintergrund
 
+Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden.
+
 == Projektendergebnis
+
+Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
+
+. Funktioniert das Generieren?
+. Ist es übersichtlich gestaltet?
+. Ist die Ausgabe gut leserlich gestaltet?
+. Ist es benutzerfreundlich?
 
 == Projektziel
 
+
+
 == Projektbeschreibung
+
+Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde.
 
 == Projektphasen/Meilensteine
 
-== Projektstart
-
-== Projektende
+|=======================
+|Meilenstein/Ergebnis|Datum
+|    |
+|    |
+|    |
+|    |
+|=======================
 
 == Projektressourcen
 
+* Intellij
+* Java, JavaFX, Java I/O
+* Maven
+* Docker
+
 == Projektrisiken
+
+
 
 == Projektorganisation
 
