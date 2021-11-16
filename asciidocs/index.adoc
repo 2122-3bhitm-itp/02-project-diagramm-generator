@@ -24,7 +24,7 @@ Prof. Mag. Dr. Thomas Stütz
 
 == Projekthintergrund
 
-Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden.
+Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden. Der Generator würde auch dazu dienen, das man Java Programme dadurch besser verstehen kann.
 
 == Projektendergebnis
 
@@ -62,6 +62,9 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 * Github
 
 == Projektrisiken
+
+Es könnte sein, dass die Diagramme unübersichtlich gestaltet werden, wenn sehr viele Klassen in einem Projekt vorkommen.
+Es könnte dadurch auch zu Performance Problemen kommen, wodurch das Generieren sehr lange brauchen würde.
 
 == Projektorganisation
 
