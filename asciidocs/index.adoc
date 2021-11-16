@@ -23,6 +23,7 @@ Diagramm Generator
 Prof. Mag. Dr. Thomas Stütz
 
 == Projekthintergrund
+Man findet heutzutage viele opensource Programme, die perfekte Funktionalitäten haben, doch die Programme sind so schlecht gecodet, dass man Stunden braucht, bis man irgendwie versteht wie die Programme funktionieren. Man kann diese Programme nicht erweitern oder sie für andere Programme anwenden.
 
 Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden.
 
@@ -36,6 +37,7 @@ Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres
 . Ist es benutzerfreundlich?
 
 == Projektziel
+Ein Diagram für solche Programme generieren, um die Programme besser zu verstehen.
 
 
 
