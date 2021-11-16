@@ -16,10 +16,7 @@ ifdef::backend-html5[]
 
 == Projektbezeichnung
 
-
 == Projektauftraggeber
-
-Moritz Eder, Abdulrahman Al Sabagh, Angerer Mona
 
 == Projekthintergrund
 
