@@ -23,7 +23,6 @@ Diagramm Generator
 Prof. Mag. Dr. Thomas Stütz
 
 == Projekthintergrund
-Man findet heutzutage viele opensource Programme, die perfekte Funktionalitäten haben, doch die Programme sind so schlecht gecodet, dass man Stunden braucht, bis man irgendwie versteht wie die Programme funktionieren. Man kann diese Programme nicht erweitern oder sie für andere Programme anwenden.
 
 Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden.
 
@@ -37,13 +36,13 @@ Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres
 . Ist es benutzerfreundlich?
 
 == Projektziel
-Ein Diagram für solche Programme generieren, um die Programme besser zu verstehen.
 
+Das Ziel dieses Projektes wird ein fertiger Diagrammgenerator sein, den Schüler für das Erstellen von Diagrammen nutzen können, damit es nicht mehr so umständlich ist. Es sollte also einfach ein praktischer und schneller Weg sein, Diagramme für Java zu erstellen.
 
 
 == Projektbeschreibung
 
-Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde.
+Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde. Das Design wird übersichtlich und lesbar gestaltet sein.
 
 == Projektphasen/Meilensteine
 
@@ -57,16 +56,21 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 
 == Projektressourcen
 
-* Intellij
+* IntelliJ IDEA
 * Java, JavaFX, Java I/O
 * Maven
 * Docker
+* Github
 
 == Projektrisiken
 
-
-
 == Projektorganisation
+
+Projektleiter: Moritz Eder: zuständig für die Kontrolle des Projektes, das Testen des Programms und die Dokumentation der einzelnen Schritte
+
+Projektteam: +
+Abdulrahman Al Sabagh: zuständig für Logik des Java Programms +
+Mona Angerer: zuständig für Design
 
 == Abschluss des Projektauftrags
 
