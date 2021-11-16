@@ -24,7 +24,7 @@ Man findet heutzutage viele opensource Programme, die perfekte Funktionalitäten
 == Projektendergebnis
 
 == Projektziel
-Ein Diagram für solche Programme generieren, um die Programme besser zu verstehen. Somit kann man das Programm besser verstehen und umcoden bzw. ändern damit jeder Mensch es und nachvollziehen kann. Der  Code kann dann erweitert werden bzw. in einem Projekt angewendet werden
+Ein Diagram für solche Programme generieren, um die Programme besser zu verstehen.
 
 == Projektbeschreibung
 
