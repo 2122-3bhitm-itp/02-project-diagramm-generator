@@ -56,7 +56,7 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 == Projektressourcen
 
 * IntelliJ IDEA
-* Java, JavaFX, SceneBuider, Java I/O
+* Java, JavaFX, SceneBuider, Java I/O, JUnit
 * Maven
 * Docker
 * Github
