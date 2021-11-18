@@ -37,7 +37,7 @@ Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres
 
 Dieses Design wurde bereits entworfen:
 
-image::design.png[700, 500]
+image::design.png[800, 600]
 
 == Projektziel
 
