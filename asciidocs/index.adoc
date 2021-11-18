@@ -28,7 +28,7 @@ Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Progr
 
 == Projektendergebnis
 
-Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
+Ein vollständiger Diagrammgenerator wird bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
 
 . Funktioniert das Generieren?
 . Wurde der Programmcode effizient geschrieben?
