@@ -24,7 +24,7 @@ Prof. Mag. Dr. Thomas Stütz
 
 == Projekthintergrund
 
-Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden. Der Generator würde auch dazu dienen, das man Java Programme dadurch besser verstehen kann.
+Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden. Der Generator würde auch dazu dienen, dass man Java Programme dadurch besser verstehen kann.
 
 == Projektendergebnis
 
