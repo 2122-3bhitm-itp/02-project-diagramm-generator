@@ -35,6 +35,10 @@ Ein vollständiger Diagrammgenerator sollte bis spätestens Ende des Schuljahres
 . Ist die Ausgabe gut leserlich gestaltet?
 . Ist es benutzerfreundlich?
 
+Dieses Design wurde bereits entworfen:
+
+image::design.png[]
+
 == Projektziel
 
 Das Ziel dieses Projektes wird ein fertiger Diagrammgenerator sein, den Schüler für das Erstellen von Diagrammen nutzen können, damit es nicht mehr so umständlich ist. Es sollte also einfach ein praktischer und schneller Weg sein, Diagramme für Java zu erstellen.
