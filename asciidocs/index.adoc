@@ -24,7 +24,7 @@ Prof. Mag. Dr. Thomas Stütz
 
 == Projekthintergrund
 
-Wir als HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Durch diesen Generator wird das Erstellen solcher Diagramme sehr viel einfacher werden. Der Generator würde auch dazu dienen, dass man Java Programme dadurch besser verstehen kann.
+Wir HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Wir machen das entweder auf Papier oder wir verwenden PlantUML zum Erstellen der Diagramme. Das ist relativ mühselig und der Generator würde uns die Arbeit erleichtern.
 
 == Projektendergebnis
 
@@ -46,23 +46,23 @@ Das Ziel dieses Projektes wird ein fertiger Diagrammgenerator sein, den Schüler
 
 == Projektbeschreibung
 
-Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde. Das Design wird übersichtlich und lesbar gestaltet sein.
+Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde. Das Design wird übersichtlich und lesbar gestaltet sein. Eine Erweiterung für den Generator wäre, dass man bereits fertiggestellte Diagramme wieder in Java Code zurück umwandelt.
 
 == Meilensteine
 
 |=======================
 |Meilenstein/Ergebnis|Datum
-|Eine Klasse mit Variablen und Methoden kann generiert werden|
-|Ein ganzes Projekt kann generiert werden|
-|Performance des Programms verbessern|
+|Plan zur Erstellung eines Prototyps|23.03.2122
+|Prototyp Fertigstellung|07.04.2122
+|Grundfunktionalität fertiggestellt|16.04.2122
+|Projekt mit Features erweitert|03.05.2122
+|Performance des Generators verbessert|20.05.2122
+|Diagrammgenerator fertiggestellt|13.06.2122
 |=======================
 
 == Projektressourcen
 
 * IntelliJ IDEA
-* Java, JavaFX, SceneBuider, Java I/O, JUnit
-* Maven
-* Docker
 * Github
 
 == Projektrisiken
