@@ -52,12 +52,12 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 
 |=======================
 |Meilenstein/Ergebnis|Datum
-|Plan zur Erstellung eines Prototyps|23.03.2122
-|Prototyp Fertigstellung|07.04.2122
-|Grundfunktionalität fertiggestellt|16.04.2122
-|Projekt mit Features erweitert|03.05.2122
-|Performance des Generators verbessert|20.05.2122
-|Diagrammgenerator fertiggestellt|13.06.2122
+|Plan zur Erstellung eines Prototyps|23.03.2022
+|Prototyp Fertigstellung|07.04.2022
+|Grundfunktionalität fertiggestellt|16.04.2022
+|Projekt mit Features erweitert|03.05.2022
+|Performance des Generators verbessert|20.05.2022
+|Diagrammgenerator fertiggestellt|13.06.2022
 |=======================
 
 == Projektressourcen
