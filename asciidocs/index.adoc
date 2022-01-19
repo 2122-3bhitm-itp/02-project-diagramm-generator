@@ -82,4 +82,15 @@ Mona Angerer: zuständig für Design
 
 25.11.2021
 
+== Diagramm Schularbeitenprogramm
+
+[plantuml, diagramm.puml]
+----
+include::plantuml/diagramm.puml[]
+----
+
+[plantuml, ablauf.puml]
+----
+include::plantuml/ablauf.puml[]
+----
 

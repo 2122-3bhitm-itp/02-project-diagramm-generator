@@ -1,0 +1,12 @@
+@startuml
+start
+note
+Deamon Programm
+end note
+
+:Programm mit JGit;
+:Files lokal speichern;
+:Files auf zentrales Repo übertragen;
+:Kann per Github von Professoren ausgelesen werden;
+stop
+@enduml
