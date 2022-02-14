@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+left to right direction
+Feuerloescher "0..*" <-- "1" Raum
+
+
+class Raum {
+ -raumNr : int
+ -stockwerk : int
+ -feuerloescherId : int
+ ||
+}
+
+
+
+
+class Feuerloescher {
+    -feuerloescherId : int
+    -raumNr : int
+    -termin : Date
+    ||
+}
+
+@enduml
