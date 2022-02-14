@@ -1,0 +1,18 @@
+@startuml
+
+left to right direction
+actor "Brandschutztechniker" as bt
+
+rectangle Gebäude {
+  usecase "Feuerlöscher hinzufügen" as UC1
+  usecase "Feuerlöscher warten" as UC2
+  usecase "Feuerlöscher entfernen" as UC3
+  usecase "Erinnerung an Wartungstermin" as UC4
+}
+
+bt -- UC1
+bt -- UC2
+bt -- UC3
+
+UC2 <-- UC4 : <<include>>
+@enduml
