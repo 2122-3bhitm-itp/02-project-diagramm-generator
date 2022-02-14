@@ -16,7 +16,10 @@ ifdef::backend-html5[]
 
 == Klassendiagramm
 
-
+[plantuml, Klassen]
+----
+include::plantuml/db_cld.puml[]
+----
 
 == Anwendungsfalldiagramm
 
