@@ -14,90 +14,89 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Klassendiagramm
-
-[plantuml, Klassen]
-----
-include::plantuml/db_cld.puml[]
-----
-
-== Anwendungsfalldiagramm
-
-[plantuml, UseCase]
-----
-include::plantuml/ucd.puml[]
-----
-
-////
 == Projektbezeichnung
 
-Diagram
-
-m Generator
+Feuerlöscherdistributionsverwaltungsprogramm
 
 == Projektauftraggeber
 
-Prof. Mag. Dr. Thomas Stütz
+Thomas Stütz
 
 == Projekthintergrund
 
+////
 Wir HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Wir machen das entweder auf Papier oder wir verwenden PlantUML zum Erstellen der Diagramme. Das ist relativ mühselig und der Generator würde uns die Arbeit erleichtern.
+////
 
 == Projektendergebnis
 
+////
 Ein vollständiger Diagrammgenerator wird bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
 
 . Funktioniert das Generieren?
 . Wurde der Programmcode effizient geschrieben?
 . Ist die Ausgabe gut leserlich gestaltet?
 . Ist es benutzerfreundlich?
-
-Dieses Design wurde bereits entworfen:
-
-image::design.png[800, 600]
+////
 
 == Projektziel
 
+////
 Das Ziel dieses Projektes wird ein fertiger Diagrammgenerator sein, den Schüler für das Erstellen von Diagrammen nutzen können, damit es nicht mehr so umständlich ist. Es sollte also einfach ein praktischer und schneller Weg sein, Diagramme für Java zu erstellen.
-
+////
 
 == Projektbeschreibung
 
+////
 Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde. Das Design wird übersichtlich und lesbar gestaltet sein. Eine Erweiterung für den Generator wäre, dass man bereits fertiggestellte Diagramme wieder in Java Code zurück umwandelt.
+////
 
 == Meilensteine
 
 |=======================
 |Meilenstein/Ergebnis|Datum
-|Plan zur Erstellung eines Prototyps|23.03.2022
+|Plan zur Erstellung eines Prototyps|31.03.2022
 |Prototyp Fertigstellung|07.04.2022
-|Grundfunktionalität fertiggestellt|16.04.2022
-|Projekt mit Features erweitert|03.05.2022
-|Performance des Generators verbessert|20.05.2022
-|Diagrammgenerator fertiggestellt|13.06.2022
+|Grundfunktionalität fertiggestellt / Demo|16.04.2022
+|Datenbankverbindung|05.05.2022
+|fertiges User Interface|19.05.2022
+|Projekt fertiggestellt|23.06.2022
 |=======================
 
 == Projektressourcen
 
 * IntelliJ IDEA
 * Github
+* Docker
 
 == Projektrisiken
 
-Es könnte sein, dass die Diagramme unübersichtlich gestaltet werden, wenn sehr viele Klassen in einem Projekt vorkommen.
-Es könnte dadurch auch zu Performance Problemen kommen, wodurch das Generieren sehr lange brauchen würde.
+* Falsche Daten beim Austauschen von Feuerlöschern
+* Performanzprobleme
 
 == Projektorganisation
 
-Projektleiter: Moritz Eder: zuständig für die Kontrolle des Projektes, das Testen des Programms und die Dokumentation der einzelnen Schritte
+Projektleiter: Abdulrahman Al Sabagh:
 
-Projektteam: +
-Abdulrahman Al Sabagh: zuständig für Logik des Java Programms +
-Mona Angerer: zuständig für Design
+Projektteam +
+Moritz Eder: +
+Mona Angerer:
 
-== Abschluss des Projektauftrags
+== Klassendiagramm
 
-25.11.2021
+////
+[plantuml, Klassen]
+----
+include::plantuml/db_cld.puml[]
+----
+////
 
+== Anwendungsfalldiagramm
+
+////
+[plantuml, UseCase]
+----
+include::plantuml/ucd.puml[]
+----
 ////
 
