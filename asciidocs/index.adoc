@@ -76,25 +76,43 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 
 == Projektorganisation
 
-Projektleiter: Abdulrahman Al Sabagh:
+Projektleiter: Abdulrahman Al Sabagh: Zuständig für Model, Controller und  Deployment
 
 Projektteam +
-Moritz Eder: +
-Mona Angerer:
 
-== Klassendiagramm
+- Moritz Eder: Zuständig für Unitests +
+- Mona Angerer: Zuständig für View und Controller
 
-////
-[plantuml, Klassen]
+== ERD-Diagram
+
+
+
+[plantuml,erd ,png]
 ----
-include::plantuml/db_cld.puml[]
+include::plantuml/erd.puml
 ----
-////
+
+
+
+
+
+
+
+== CLD (im Code)
+
+
+
+[plantuml,code-cld,png]
+----
+include::plantuml/code-cld.puml
+----
+
+
 
 == Anwendungsfalldiagramm
 
 
-[plantuml, UseCase]
+[plantuml, UseCase,png]
 ----
 include::plantuml/ucd.puml[]
 ----

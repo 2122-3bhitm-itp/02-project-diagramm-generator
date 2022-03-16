@@ -1,0 +1,74 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+ class Controller  {
+    - table : TableView
+    - model: Model
+    - searchField: TextField
+
+    + search(id : int):Object
+    + search (name: String) : Raum
+    + updateFirma(name: String):void
+    + updateFeuerloescher(id: int):void
+    + updateRaum(id:int):void
+    + getNotifications():ObservableList
+    + addFeuerloescher(wartungsTermin:LocalDateTime): boolean
+    + addRaum(name: String):boolean
+    + deleteRaum(): boolean
+    + deleteFeuerloescher(): boolean
+
+
+
+ }
+
+ class Model {
+
+
+  + Model()
+  + getRaum(feuerloescherId: int) : Raum
+  + getRaueme() : List<Raum>
+  + getAllFeuerloescher(): List<Feuerloescher>
+  + getFeuerloescher(raumId: int): List<Feuerloescher>
+  + getTermin (feuerloescherId: int) : LocalDateTime
+  + getTermine(feuerloescherId: int): List <LocalDateTime>
+  + getFirma(feuerloescherId: int): String
+
+
+ }
+
+ class Raum {
+   - NR : int
+   - name : String
+   - stockwerk : int
+   - feuerloescher : List<Feuerloescher>
+
+   + getStockwerk():int
+   + Raum(NR:int, name: String, stockwerk: int)
+   + getName(): String
+   + setName(): void
+   + getNR(): int
+   + getFeuerloescher(): List<Feuerloescher>
+ }
+
+class Feuerloescher {
+
+   - NR: int
+   - location: Raum
+   - firma: String
+   - termin : LocalDateTime
+
+   + Feuerloescher(NR:int, location:Raum, firma:String, termin:LocalDateTime)
+   + getFirma(): String
+   + getTermin(): LocalDateTime
+   + getLocation(): Raum
+}
+
+
+ Controller "*" --> "1" Model
+ Raum "*" --> "1" Model
+ Raum "1" <-- "*" Feuerloescher
+ Feuerloescher "*" --> "1" Model
+
+@enduml

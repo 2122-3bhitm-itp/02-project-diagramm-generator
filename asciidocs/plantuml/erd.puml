@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+left to right direction
+class Firma {
+- firmenNr :int
+- name:String
+||
+}
+class Raum {
+ - raumNr:int
+ - stockwerk:int
+ -  feuerloescherNr: int
+}
+class Feuerloescher {
+ - feuerloescherNr:int
+ - firmenNr: int
+
+}
+class Termin {
+    - terminNr: int
+    - datum: Date
+
+}
+
+class Wartung {
+    - wartungsNr: int
+   - terminNr : int
+   - feuerloescherNr: int
+}
+
+Raum "1" <-- "*" Feuerloescher
+
+Feuerloescher "*" --  "*" Termin
+
+(Feuerloescher,Termin) .. Wartung
+
+Firma "1" <-- "*" Feuerloescher
+
+@enduml
