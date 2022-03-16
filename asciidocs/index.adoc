@@ -57,8 +57,7 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 |Meilenstein/Ergebnis|Datum
 |Plan zur Erstellung eines Prototyps|31.03.2022
 |Prototyp Fertigstellung|07.04.2022
-|Grundfunktionalität fertiggestellt / Demo|16.04.2022
-|Datenbankverbindung|05.05.2022
+|Datenbankverbindung|28.04.2022
 |fertiges User Interface|19.05.2022
 |Projekt fertiggestellt|23.06.2022
 |=======================
@@ -89,13 +88,8 @@ Projektteam +
 
 [plantuml,erd ,png]
 ----
-include::plantuml/erd.puml
+include::plantuml/erd.puml[]
 ----
-
-
-
-
-
 
 
 == CLD (im Code)
@@ -104,9 +98,8 @@ include::plantuml/erd.puml
 
 [plantuml,code-cld,png]
 ----
-include::plantuml/code-cld.puml
+include::plantuml/code-cld.puml[]
 ----
-
 
 
 == Anwendungsfalldiagramm
