@@ -24,16 +24,16 @@ Thomas Stütz
 
 == Projekthintergrund
 
-In jedem Gebäude gibt es Feuerlöscher, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten wird, wann welcher Feuerlöscher gewartet werden muss, dass letzte mal gewartet wurde, etc. .
+In jedem Gebäude gibt es Feuerlöscher, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten wird, wann welcher Feuerlöscher gewartet werden muss, dass letzte Mal gewartet wurde, etc.
 
-Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Feuerlöscher eines Gebäudes hat würde dies erheblich erleichtern.
+Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Feuerlöscher eines Gebäudes hat, wird dies erheblich erleichtern.
 ////
 Wir HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Wir machen das entweder auf Papier oder wir verwenden PlantUML zum Erstellen der Diagramme. Das ist relativ mühselig und der Generator würde uns die Arbeit erleichtern.
 ////
 
 == Projektendergebnis
 
-Ein funktionierendes Programm dass Überblick über alle Räume und Feuerlöscher eines Gebäudes bietet und Wartungstermine zu den jeweiligen Feuerlöschern anzeigt.
+Ein funktionierendes Programm, dass Überblick über alle Räume und Feuerlöscher eines Gebäudes bietet und Wartungstermine zu den jeweiligen Feuerlöschern anzeigt.
 
 ////
 Ein vollständiger Diagrammgenerator wird bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
