@@ -69,8 +69,8 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 
 |=======================
 |Meilenstein/Ergebnis|Datum
-|Aufbau des Layouts|1.5.2022
-|Tests|10.5.2022
+|Aufbau des Layouts|5.5.2022
+|Tests|12.5.2022
 |Benachrichtigungsfunktion hinzufügen|  26.5.2022
 |Performanz Optimierung|09.06.2022
 |Projekt fertiggestellt|23.06.2022
