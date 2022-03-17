@@ -58,8 +58,9 @@ class Feuerloescher {
    - location: Raum
    - firma: String
    - termin : LocalDateTime
+   - austauschbar: boolean
 
-   + Feuerloescher(NR:int, location:Raum, firma:String, termin:LocalDateTime)
+   + Feuerloescher(NR:int, location:Raum, firma:String, termin:LocalDateTime,austauschbar:boolean)
    + getFirma(): String
    + getTermin(): LocalDateTime
    + getLocation(): Raum
