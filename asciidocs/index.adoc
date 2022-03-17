@@ -24,11 +24,16 @@ Thomas Stütz
 
 == Projekthintergrund
 
+In jedem Gebäude gibt es Feuerlöscher, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten werden muss wann welcher Feuerlöscher gewartet werden muss, dass letzte mal gewartet wurde, etc. .
+
+Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Feuerlöscher eines Gebäudes hat würde dies erheblich erleichtern.
 ////
 Wir HTL Schüler müssen oft Diagramme für verschiedene Übungen oder Programme zeichen. Wir machen das entweder auf Papier oder wir verwenden PlantUML zum Erstellen der Diagramme. Das ist relativ mühselig und der Generator würde uns die Arbeit erleichtern.
 ////
 
 == Projektendergebnis
+
+Ein funktionierendes Programm dass Überblick über alle Räume und Feuerlöscher eines Gebäudes bietet und Wartungstermine zu den jeweiligen Feuerlöschern anzeigt.
 
 ////
 Ein vollständiger Diagrammgenerator wird bis spätestens Ende des Schuljahres fertig sein. Es wird also ein Projekt zu Forward oder Reverse Engineering. Kriterien für das Ergebnis könnten sein:
@@ -41,11 +46,20 @@ Ein vollständiger Diagrammgenerator wird bis spätestens Ende des Schuljahres f
 
 == Projektziel
 
+Ziele für unser fertiges Projekt sind:
+
+* benutzerfreundliche und übersichtliche Oberfläche
+* Feuerlöscher können hinzugefügt und entfernt werden
+* die Feuerlöscher werden chronologisch (welcher Feuerlöscher muss als nächstes gewartet werden) dargestellt
+
+
 ////
 Das Ziel dieses Projektes wird ein fertiger Diagrammgenerator sein, den Schüler für das Erstellen von Diagrammen nutzen können, damit es nicht mehr so umständlich ist. Es sollte also einfach ein praktischer und schneller Weg sein, Diagramme für Java zu erstellen.
 ////
 
 == Projektbeschreibung
+
+Mithilfe unseres Projektes kann man einfach und übersichtlich alle Feuerlöscher eines Gebäudes verwalten. Die Feuerlöscher mit ihren dazugehörigen Wartungsterminen werden chronologisch angezeigt. Es können auch einfach Feuerlöscher hinzugefügt oder entfernt werden, falls notwendig.
 
 ////
 Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser für das Generieren des Diagramms ist. Wenn man also mit einem Programm oder einer Übung in Java fertig ist, klickt man auf diesen Knopf und dann wird ein Diagramm generiert, das so wie ein Diagramm von PlantUML aussehen würde. Das Design wird übersichtlich und lesbar gestaltet sein. Eine Erweiterung für den Generator wäre, dass man bereits fertiggestellte Diagramme wieder in Java Code zurück umwandelt.
