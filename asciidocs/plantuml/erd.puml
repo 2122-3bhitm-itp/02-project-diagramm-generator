@@ -10,23 +10,32 @@ class Raum {
  - raumNr:int
  - stockwerk:int
  -  feuerloescherNr: int
+ ||
 }
 class Feuerloescher {
  - feuerloescherNr:int
  - firmenNr: int
  - austauschbar: boolean
-
+||
 }
 class Termin {
     - terminNr: int
     - datum: Date
-
+||
 }
 
 class Wartung {
     - wartungsNr: int
    - terminNr : int
    - feuerloescherNr: int
+   ||
+}
+
+class Benachrichtigung {
+  - id:int
+  - nachricht: String
+  - typ: String
+  ||
 }
 
 Raum "1" <-- "*" Feuerloescher
@@ -36,5 +45,14 @@ Feuerloescher "*" --  "*" Termin
 (Feuerloescher,Termin) .. Wartung
 
 Firma "1" <-- "*" Feuerloescher
+note as nachricht
+
+Typen von Nachrichten:
+
+- Warnung
+- Erinnerung
+- Aktivität  z.B.: (Feuerlöscher xy wurde hinzugefügt)
+end note
+
 
 @enduml

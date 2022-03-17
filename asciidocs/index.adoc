@@ -69,11 +69,9 @@ Das Projekt würde circa so aussehen: Es gibt es einen Knopf, der der Auslöser 
 
 |=======================
 |Meilenstein/Ergebnis|Datum
-|Plan zur Erstellung eines Prototyps|31.03.2022
-|Prototyp Fertigstellung|07.04.2022
-|Datenbankverbindung|28.04.2022
-|Funktionen, Layout, Tests|05.05.2022 - 12.05.2022
-|E-Mail Benachrichtigungen|19.05.2022
+|Aufbau des Layouts|1.5.2022
+|Tests|10.5.2022
+|Notifications hinzufügen|  26.5.2022
 |Performanz Optimierung|09.06.2022
 |Projekt fertiggestellt|23.06.2022
 |=======================
