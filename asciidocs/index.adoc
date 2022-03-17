@@ -24,7 +24,7 @@ Thomas Stütz
 
 == Projekthintergrund
 
-In jedem Gebäude gibt es Feuerlöscher, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten werden muss wann welcher Feuerlöscher gewartet werden muss, dass letzte mal gewartet wurde, etc. .
+In jedem Gebäude gibt es Feuerlöscher, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten wird, wann welcher Feuerlöscher gewartet werden muss, dass letzte mal gewartet wurde, etc. .
 
 Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Feuerlöscher eines Gebäudes hat würde dies erheblich erleichtern.
 ////
