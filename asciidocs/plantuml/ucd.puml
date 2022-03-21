@@ -14,5 +14,5 @@ bt -- UC1
 bt -- UC2
 bt -- UC3
 
-UC2 <-- UC4 : <<include>>
+UC2 <-- UC4 : <<extends>>
 @enduml

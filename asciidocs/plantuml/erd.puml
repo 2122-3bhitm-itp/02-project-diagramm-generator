@@ -3,22 +3,29 @@
 left to right direction
 class Firma {
 - firmenNr :int
-- name:String
+- name: String
 ||
 }
 class Raum {
- - raumNr:int
- - stockwerk:int
- -  feuerloescherNr: int
+ - raumNr: int
+ - stockwerk: int
+ -  geraeteNr: int
  ||
 }
-class Feuerloescher {
- - feuerloescherNr:int
+class Geraet {
+ - geraeteNr: int
  - firmenNr: int
+ - kategorieNr: int
  - austauschbar: boolean
+ - kabellos: boolean
 ||
 }
-class Termin {
+class Kategorie {
+ - kategorieNr: int
+ - kategorieName: String
+||
+}
+/'class Termin {
     - terminNr: int
     - datum: Date
 ||
@@ -36,22 +43,24 @@ class Benachrichtigung {
   - nachricht: String
   - typ: String
   ||
-}
+}'/
 
-Raum "1" <-- "*" Feuerloescher
+'Device "*" --  "*" Termin
 
-Feuerloescher "*" --  "*" Termin
+'(Device,Termin) .. Wartung
 
-(Feuerloescher,Termin) .. Wartung
+Raum "1" <-- "*" Geraet
 
-Firma "1" <-- "*" Feuerloescher
-note as nachricht
+Firma "1" <-- "*" Geraet
 
-Typen von Nachrichten:
+Geraet "0..1" --> "*" Geraet
 
-- Warnung
-- Erinnerung
-- Aktivität  z.B.: (Feuerlöscher xy wurde hinzugefügt)
+Geraet "*" --> "1" Kategorie
+
+note as kommentar
+Note:
+- Protokolle
+- Passwörter
 end note
 
 
