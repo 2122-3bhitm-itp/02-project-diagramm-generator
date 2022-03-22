@@ -1,4 +1,4 @@
-= Feuerlöscherdistributionsverwaltungsprogramm
+= Inventory
 Moritz Eder, Abdulrahman Al Sabagh, Angerer Mona
 1.0.0, 2021/22
 ifndef::imagesdir[:imagesdir: images]
@@ -16,7 +16,7 @@ ifdef::backend-html5[]
 
 == Projektbezeichnung
 
-Feuerlöscherdistributionsverwaltungsprogramm
+Inventory
 
 == Projektauftraggeber
 
@@ -24,26 +24,26 @@ Thomas Stütz
 
 == Projekthintergrund
 
-In jedem Gebäude gibt es Feuerlöscher, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten wird, wann welcher Feuerlöscher gewartet werden muss, dass letzte Mal gewartet wurde, etc.
+In jedem Gebäude gibt es Geräte, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten wird, wann welches Gerät gewartet werden muss, oder welches das letzte Mal gewartet wurde, etc.
 
-Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Feuerlöscher eines Gebäudes hat, wird dies erheblich erleichtern.
+Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Geräte eines Gebäudes hat, wird dies erheblich erleichtern.
 
 == Projektendergebnis
 
-Ein funktionierendes Programm, dass Überblick über alle Räume und Feuerlöscher eines Gebäudes bietet und Wartungstermine zu den jeweiligen Feuerlöschern anzeigt.
+Ein funktionierendes Programm, dass Überblick über alle Räume und Geräte eines Gebäudes bietet und Wartungstermine zu den jeweiligen Geräten anzeigt.
 
 == Projektziel
 
 Ziele für unser fertiges Projekt sind:
 
 * benutzerfreundliche und übersichtliche Oberfläche
-* Feuerlöscher können hinzugefügt und entfernt werden
-* die Feuerlöscher werden chronologisch (welcher Feuerlöscher muss als nächstes gewartet werden) dargestellt
+* Geräte können hinzugefügt und entfernt werden
+* die Geräte werden chronologisch (welches Gerät muss als nächstes gewartet werden) dargestellt
 
 
 == Projektbeschreibung
 
-Mithilfe unseres Projektes kann man einfach und übersichtlich alle Feuerlöscher eines Gebäudes verwalten. Die Feuerlöscher mit ihren dazugehörigen Wartungsterminen werden chronologisch angezeigt. Es können auch einfach Feuerlöscher hinzugefügt oder entfernt werden, falls notwendig.
+Mithilfe unseres Projektes kann man einfach und übersichtlich alle Geräte eines Gebäudes verwalten. Die Geräte mit ihren dazugehörigen Wartungsterminen werden chronologisch angezeigt. Es können auch einfach Geräte hinzugefügt oder entfernt werden, falls notwendig.
 
 == Meilensteine
 
@@ -51,7 +51,7 @@ Mithilfe unseres Projektes kann man einfach und übersichtlich alle Feuerlösche
 |Meilenstein/Ergebnis|Datum
 |Aufbau des Layouts + Funktionen|5.5.2022
 |Tests|12.5.2022
-|Benachrichtigungsfunktion hinzufügen|  26.5.2022
+|Protokolle und Passwort Funktion|  26.5.2022
 |Performanz Optimierung|09.06.2022
 |Projekt fertiggestellt|23.06.2022
 |=======================
@@ -64,7 +64,7 @@ Mithilfe unseres Projektes kann man einfach und übersichtlich alle Feuerlösche
 
 == Projektrisiken
 
-* Falsche Daten beim Austauschen von Feuerlöschern
+* Falsche Daten beim Austauschen von Geräte
 * Performanzprobleme
 
 == Projektorganisation

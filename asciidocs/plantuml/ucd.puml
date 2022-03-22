@@ -1,12 +1,12 @@
 @startuml
 
 left to right direction
-actor "Brandschutztechniker" as bt
+actor "Techniker" as bt
 
 rectangle Gebäude {
-  usecase "Feuerlöscher hinzufügen" as UC1
-  usecase "Feuerlöscher warten" as UC2
-  usecase "Feuerlöscher entfernen" as UC3
+  usecase "Gerät hinzufügen" as UC1
+  usecase "Gerät warten" as UC2
+  usecase "Gerät entfernen" as UC3
   usecase "Erinnerung an Wartungstermin" as UC4
 }
 
