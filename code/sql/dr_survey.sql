@@ -1,0 +1,4 @@
+DROP TABLE Geraet;
+DROP TABLE Firma;
+DROP TABLE Raum;
+DROP TABLE Kategorie;
