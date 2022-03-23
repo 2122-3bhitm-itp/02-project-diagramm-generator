@@ -9,7 +9,6 @@ class Firma {
 class Raum {
  - raumNr: int
  - stockwerk: int
- -  geraeteNr: int
  ||
 }
 class Geraet {
@@ -18,6 +17,8 @@ class Geraet {
  - kategorieNr: int
  - austauschbar: boolean
  - kabellos: boolean
+ -  geraeteNr: int
+
 ||
 }
 class Kategorie {
