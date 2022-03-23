@@ -1,4 +1,3 @@
-
 CREATE TABLE Firma
 (
     firmenNr bigint primary key,
@@ -27,10 +26,11 @@ Create TABLE Geraet
     firmenNr    BIGINT,
     kategorieNr BIGINT,
     raumNr      BIGINT,
+    partOf      BIGINT
 
     FOREIGN KEY (kategorieNr) REFERENCES Kategorie (kategorieNr),
     FOREIGN KEY (firmenNr) REFERENCES Firma (firmenNr),
-    FOREIGN KEY (geraetNr) REFERENCES Geraet (geraetNr),
+    FOREIGN KEY (partOf) REFERENCES Geraet (geraetNr),
     FOREIGN KEY (raumNr) REFERENCES Raum (raumNr)
 
 );
