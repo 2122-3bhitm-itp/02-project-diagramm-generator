@@ -12,6 +12,6 @@ module com.example.demo {
     opens com.example.demo to javafx.fxml;
     exports at.htl.survey;
     opens at.htl.survey to javafx.fxml;
-    exports at.htl.survey.controllerx;
-    opens at.htl.survey.controllerx to javafx.fxml;
+    exports at.htl.survey.controller;
+    opens at.htl.survey.controller to javafx.fxml;
 }

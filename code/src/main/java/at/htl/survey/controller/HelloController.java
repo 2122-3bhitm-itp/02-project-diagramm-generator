@@ -1,4 +1,4 @@
-package at.htl.survey.controllerx;
+package at.htl.survey.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
