@@ -111,7 +111,7 @@ In der HTL Leonding gibt es viele unterschiedliche technische Geräte die oft er
 
 === Istzustand
 
-Für die Geräte in der HTL Leonding gibt es derzeit keine einheitliche Anwendung mithilfe derer sie dargestellt und verwaltet werden.
+Für die Geräte in der HTL Leonding gibt es derzeit keine einheitliche Anwendung mithilfe derer sie dargestellt und verwaltet werden können.
 
 === Aufgabenstellung
 
@@ -128,4 +128,4 @@ Ziel ist eine funktionierende, benutzeroberflächliche Anwendung mit der einfach
 === Rahmenbedingungen
 
 * Anwendung wird mit JavaFx programmiert
-* Anwendung soll bis Ende des Schuljahres fertig gestellt werden
+* Anwendung soll bis Ende des Schuljahres fertiggestellt werden
