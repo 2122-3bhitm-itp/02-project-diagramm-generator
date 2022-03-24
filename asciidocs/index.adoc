@@ -129,9 +129,9 @@ Für jeden neuen Bildschirm und andere Geräte wird man sich diese Fragen stelle
 
 Ziel ist eine funktionierende, benutzerfreundliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt, sowie entfernt werden können. Das Programm wird am Ende des Schuljahres fertiggestellt sein.
 
+////
 === Mengengerüst
-
-
+////
 
 === Rahmenbedingungen
 
