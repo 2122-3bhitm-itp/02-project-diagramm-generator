@@ -129,3 +129,23 @@ Ziel ist eine funktionierende, benutzeroberflächliche Anwendung mit der einfach
 
 * Anwendung wird mit JavaFx programmiert
 * Anwendung soll bis Ende des Schuljahres fertiggestellt werden
+
+=== GANTT-Diagramm
+
+[plantuml, gantt chart, png]
+-----
+@startuml
+
+[Aufbau Layout & Funktionen] lasts 21 days
+[Prototype fertig] happens at [Aufbau Layout & Funktionen]'s end
+[Tests] lasts 7 days
+[Tests] starts at [Aufbau Layout & Funktionen]'s end
+[Protokolle / Passwort Funktion] lasts 14 days
+[Protokolle / Passwort Funktion] starts at [Tests]'s end
+[Performanz Optimierung] lasts 14 days
+[Performanz Optimierung] starts at [Protokolle / Passwort Funktion]'s end
+[Projekt Fertigstellung] lasts 14 days
+[Projekt Fertigstellung] starts at [Performanz Optimierung]'s end
+
+@enduml
+-----
