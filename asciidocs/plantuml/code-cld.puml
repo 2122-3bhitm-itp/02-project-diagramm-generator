@@ -8,7 +8,7 @@
     - model: Model
     - searchField: TextField
 
-    + search(id : int):Object
+    + search(id : int): Object
     + search (name: String) : Raum
     + updateFirma(name: String):void
     + updateFeuerloescher(id: int):void
