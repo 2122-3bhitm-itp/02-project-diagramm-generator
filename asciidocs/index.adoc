@@ -101,4 +101,22 @@ include::plantuml/code-cld.puml[]
 include::plantuml/ucd.puml[]
 ----
 
+== Pflichtenheft
+
+=== Ausgangssituation
+
+In der HTL Leonding gibt es viele unterschiedliche technische Geräte die oft erneuert und ausgetauscht werden.
+
+=== Istzustand
+
+Für die Geräte in der HTL Leonding gitb es derzeit keine einheitliche Anwendung mithilfe Sie dargestellt und verwaltet werden.
+
+=== Problemstellung
+=== Aufgabenstellung
+=== Ziele
+
+Ziel ist ein funktionierendes, benutzeroberflächliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt sowie entfernt werden können.
+
+=== Mengengerüst
+=== Rahmenbedingungen
 
