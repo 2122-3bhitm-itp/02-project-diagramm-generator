@@ -18,6 +18,7 @@ class Geraet {
  - austauschbar: boolean
  - kabellos: boolean
  -  geraeteNr: int
+ - partOf: int
 
 ||
 }
