@@ -1,8 +1,7 @@
 package at.htl.survey.database;
 
-import at.htl.survey.Controller.Database;
+import at.htl.survey.controllerx.Database;
 import org.apache.ibatis.jdbc.ScriptRunner;
-import org.apache.ibatis.logging.LogFactory;
 
 
 import javax.sql.DataSource;
