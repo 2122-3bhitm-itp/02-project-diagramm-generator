@@ -107,19 +107,27 @@ include::plantuml/ucd.puml[]
 
 === Ausgangssituation
 
-In der HTL Leonding gibt es viele unterschiedliche technische Geräte die oft erneuert und ausgetauscht werden.
+In der HTL Leonding gibt es viele unterschiedliche technische Geräte, die oft erneuert und ausgetauscht werden.
 
 === Istzustand
 
-Für die Geräte in der HTL Leonding gibt es derzeit keine einheitliche Anwendung mithilfe derer sie dargestellt und verwaltet werden können.
+Für die neu installierten Bildschirme in vielen Klassenräumen in der HTL Leonding gibt es derzeit keine einheitliche Anwendung mithilfe derer sie dargestellt und verwaltet werden können. Bei anderen Geräten ist das auch der Fall.
 
 === Aufgabenstellung
 
+Für jeden neuen Bildschirm und andere Geräte wird man sich diese Fragen stellen können:
 
+* Wie ist das Gerät identifizierbar?
+* Von welcher Firma kommen es?
+* Ist es austauschbar?
+* Ist es kabellos?
+* In welchem Stockwerk befindet sich es?
+* In welchem Raum steht es?
+* Zu welcher Kategorie ist es  zugewiesen?
 
 === Ziele
 
-Ziel ist eine funktionierende, benutzeroberflächliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt sowie entfernt werden können.
+Ziel ist eine funktionierende, benutzerfreundliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt, sowie entfernt werden können. Das Programm wird am Ende des Schuljahres fertiggestellt sein.
 
 === Mengengerüst
 
@@ -127,8 +135,9 @@ Ziel ist eine funktionierende, benutzeroberflächliche Anwendung mit der einfach
 
 === Rahmenbedingungen
 
+* Dokumentation mit Asciidoc
 * Anwendung wird mit JavaFx programmiert
-* Anwendung soll bis Ende des Schuljahres fertiggestellt werden
+* Anwendung ist bis Ende des Schuljahres fertiggestellt
 
 === GANTT-Diagramm
 
