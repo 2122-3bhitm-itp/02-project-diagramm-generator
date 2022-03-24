@@ -14,25 +14,27 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Projektbezeichnung
+== Projektauftrag
+
+=== Projektbezeichnung
 
 Inventory
 
-== Projektauftraggeber
+=== Projektauftraggeber
 
 Thomas Stütz
 
-== Projekthintergrund
+=== Projekthintergrund
 
 In jedem Gebäude gibt es Geräte, die regelmäßig gewartet bzw. ausgetauscht werden müssen. Es bedarf also einer Übersicht, auf der festgehalten wird, wann welches Gerät gewartet werden muss, oder welches das letzte Mal gewartet wurde, etc.
 
 Ein einheitliches Programm auf dem man einen Überblick über alle Räume und Geräte eines Gebäudes hat, wird dies erheblich erleichtern.
 
-== Projektendergebnis
+=== Projektendergebnis
 
 Ein funktionierendes Programm, dass Überblick über alle Räume und Geräte eines Gebäudes bietet und Wartungstermine zu den jeweiligen Geräten anzeigt.
 
-== Projektziel
+=== Projektziel
 
 Ziele für unser fertiges Projekt sind:
 
@@ -41,11 +43,11 @@ Ziele für unser fertiges Projekt sind:
 * die Geräte werden chronologisch (welches Gerät muss als nächstes gewartet werden) dargestellt
 
 
-== Projektbeschreibung
+=== Projektbeschreibung
 
 Mithilfe unseres Projektes kann man einfach und übersichtlich alle Geräte eines Gebäudes verwalten. Die Geräte mit ihren dazugehörigen Wartungsterminen werden chronologisch angezeigt. Es können auch einfach Geräte hinzugefügt oder entfernt werden, falls notwendig.
 
-== Meilensteine
+=== Meilensteine
 
 |=======================
 |Meilenstein/Ergebnis|Datum
@@ -56,18 +58,18 @@ Mithilfe unseres Projektes kann man einfach und übersichtlich alle Geräte eine
 |Projekt fertiggestellt|23.06.2022
 |=======================
 
-== Projektressourcen
+=== Projektressourcen
 
 * IntelliJ IDEA
 * Github
 * Docker
 
-== Projektrisiken
+=== Projektrisiken
 
 * Falsche Daten beim Austauschen von Geräte
 * Performanzprobleme
 
-== Projektorganisation
+=== Projektorganisation
 
 Projektleiter: Abdulrahman Al Sabagh: Zuständig für Model, Controller und Deployment
 
@@ -76,7 +78,7 @@ Projektteam +
 - Moritz Eder: Zuständig für Unitests +
 - Mona Angerer: Zuständig für View und Controller
 
-== ERD-Diagram
+=== ERD-Diagram
 
 [plantuml,erd,png]
 ----
@@ -94,7 +96,7 @@ include::plantuml/code-cld.puml[]
 ////
 
 
-== Anwendungsfalldiagramm
+=== Anwendungsfalldiagramm
 
 [plantuml,UseCase,png]
 ----
@@ -109,14 +111,21 @@ In der HTL Leonding gibt es viele unterschiedliche technische Geräte die oft er
 
 === Istzustand
 
-Für die Geräte in der HTL Leonding gitb es derzeit keine einheitliche Anwendung mithilfe Sie dargestellt und verwaltet werden.
+Für die Geräte in der HTL Leonding gibt es derzeit keine einheitliche Anwendung mithilfe derer sie dargestellt und verwaltet werden.
 
-=== Problemstellung
 === Aufgabenstellung
+
+
+
 === Ziele
 
-Ziel ist ein funktionierendes, benutzeroberflächliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt sowie entfernt werden können.
+Ziel ist eine funktionierende, benutzeroberflächliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt sowie entfernt werden können.
 
 === Mengengerüst
+
+
+
 === Rahmenbedingungen
 
+* Anwendung wird mit JavaFx programmiert
+* Anwendung soll bis Ende des Schuljahres fertig gestellt werden
