@@ -2,7 +2,7 @@ package at.htl.survey.model;
 
 public class Geraet {
 
-    private int gereateNr;
+    private int geraeteNr;
     private Raum raum;
     private Geraet geraet;
     private Kategorie kategorie;
@@ -13,8 +13,8 @@ public class Geraet {
     public Geraet() {
     }
 
-    public Geraet(int gereateNr, Raum raum, Geraet geraet, Kategorie kategorie, Firma firma, boolean kabellos, boolean austauschbar) {
-        this.gereateNr = gereateNr;
+    public Geraet(int geraeteNr, Raum raum, Geraet geraet, Kategorie kategorie, Firma firma, boolean kabellos, boolean austauschbar) {
+        this.geraeteNr = geraeteNr;
         this.raum = raum;
         this.geraet = geraet;
         this.kategorie = kategorie;
@@ -23,8 +23,8 @@ public class Geraet {
         this.austauschbar = austauschbar;
     }
 
-    public int getGereateNr() {
-        return gereateNr;
+    public int getGeraeteNr() {
+        return geraeteNr;
     }
 
 
