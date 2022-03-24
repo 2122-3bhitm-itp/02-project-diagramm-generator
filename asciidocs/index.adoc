@@ -78,7 +78,7 @@ Projektteam +
 - Moritz Eder: Zuständig für Unitests +
 - Mona Angerer: Zuständig für View und Controller
 
-=== ERD-Diagram
+=== ERD
 
 [plantuml,erd,png]
 ----
