@@ -1,0 +1,18 @@
+@startuml
+
+left to right direction
+actor "Techniker" as bt
+
+rectangle Gebäude {
+  usecase "Gerät hinzufügen" as UC1
+  usecase "Gerät warten" as UC2
+  usecase "Gerät entfernen" as UC3
+  usecase "Erinnerung an Wartungstermin" as UC4
+}
+
+bt -- UC1
+bt -- UC2
+bt -- UC3
+
+UC2 <-- UC4 : <<extends>>
+@enduml

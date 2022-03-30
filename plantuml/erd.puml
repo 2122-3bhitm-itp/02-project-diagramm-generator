@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/class-diagram
+left to right direction
+class Firma {
+- firmenNr :int
+- name: String
+||
+}
+class Raum {
+ - raumNr: String
+ - stockwerk: int
+ ||
+}
+class Geraet {
+ - geraeteNr: int
+ - firmenNr: int
+ - kategorieNr: int
+ - austauschbar: boolean
+ - kabellos: boolean
+ -  geraeteNr: int
+ - partOf: int
+
+||
+}
+class Kategorie {
+ - kategorieNr: int
+ - kategorieName: String
+||
+}
+
+Raum "1" <-- "*" Geraet
+
+Firma "1" <-- "*" Geraet
+
+Geraet "0..1" --> "*" Geraet
+
+Geraet "*" --> "1" Kategorie
+
+note as kommentar
+Note:
+- Protokolle
+- Passwörter
+end note
+
+
+@enduml
