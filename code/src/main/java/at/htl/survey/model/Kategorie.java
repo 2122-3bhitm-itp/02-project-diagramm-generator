@@ -4,8 +4,6 @@ public class Kategorie {
     private int categoryId;
     private String categoryName;
 
-
-
     public Kategorie(int categoryId, String categoryName) {
         this.categoryId = categoryId;
         this.categoryName = categoryName;
