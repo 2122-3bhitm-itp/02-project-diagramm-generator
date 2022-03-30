@@ -7,7 +7,7 @@ class Firma {
 ||
 }
 class Raum {
- - raumNr: int
+ - raumNr: String
  - stockwerk: int
  ||
 }
@@ -27,29 +27,6 @@ class Kategorie {
  - kategorieName: String
 ||
 }
-/'class Termin {
-    - terminNr: int
-    - datum: Date
-||
-}
-
-class Wartung {
-    - wartungsNr: int
-   - terminNr : int
-   - feuerloescherNr: int
-   ||
-}
-
-class Benachrichtigung {
-  - id:int
-  - nachricht: String
-  - typ: String
-  ||
-}'/
-
-'Device "*" --  "*" Termin
-
-'(Device,Termin) .. Wartung
 
 Raum "1" <-- "*" Geraet
 
