@@ -10,7 +10,7 @@ class RaumTest {
     @Test
     void createRaum() {
         // arrange
-        Raum raum252 = new Raum(252, 2);
+        Raum raum252 = new Raum("252", 2);
 
         // act
         raum252.setDescr("home of 3bhitm");

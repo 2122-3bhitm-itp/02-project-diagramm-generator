@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.*;
 
 class GeraetTest {
 
-    Raum raum252 = new Raum(252, 2);
+    Raum raum252 = new Raum("252", 2);
     Geraet geraet = new Geraet();
     Kategorie bildschirm = new Kategorie("Bildschirme");
     Firma hp = new Firma("HP");
