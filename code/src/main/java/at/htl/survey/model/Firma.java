@@ -1,12 +1,12 @@
 package at.htl.survey.model;
 
 public class Firma {
-    private int firmenNr;
+    private static int firmenNr = 0;
     private String name;
 
 
-    public Firma(int firmenNr, String name) {
-        this.firmenNr = firmenNr;
+    public Firma(String name) {
+        this.firmenNr = ++firmenNr;
         this.name = name;
     }
 

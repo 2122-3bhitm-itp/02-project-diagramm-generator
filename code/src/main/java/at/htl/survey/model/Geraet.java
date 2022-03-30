@@ -27,7 +27,6 @@ public class Geraet {
         return geraeteNr;
     }
 
-
     public Raum getRaum() {
         return raum;
     }

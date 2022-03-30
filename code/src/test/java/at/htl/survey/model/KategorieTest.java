@@ -9,11 +9,10 @@ class KategorieTest {
 
     @Test
     void createKategorie() {
-        Kategorie kabellos = new Kategorie(0, "test");
+        Kategorie bildschirm = new Kategorie("test");
 
-        kabellos.setCategoryName("Kabellos");
+        bildschirm.setCategoryName("Bildschirme");
 
-        assertThat(kabellos.getCategoryName()).isEqualTo("Kabellos");
-        assertThat(kabellos.getCategoryId()).isEqualTo(0);
+        assertThat(bildschirm.getCategoryName()).isEqualTo("Bildschirme");
     }
 }

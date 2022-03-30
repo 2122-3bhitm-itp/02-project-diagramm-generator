@@ -1,11 +1,11 @@
 package at.htl.survey.model;
 
 public class Kategorie {
-    private int categoryId;
+    private static int categoryId = 0;
     private String categoryName;
 
-    public Kategorie(int categoryId, String categoryName) {
-        this.categoryId = categoryId;
+    public Kategorie(String categoryName) {
+        this.categoryId = ++categoryId;
         this.categoryName = categoryName;
     }
 
