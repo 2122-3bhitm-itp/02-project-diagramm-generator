@@ -17,7 +17,7 @@ class RaumTest {
 
         //assert
         assertThat(raum252.getStockwerk()).isEqualTo(2);
-        assertThat(raum252.getRaumNr()).isEqualTo(252);
+        assertThat(raum252.getRaumNr()).isEqualTo("252");
         assertThat(raum252.getDescr()).isEqualTo("home of 3bhitm");
 
 

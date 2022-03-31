@@ -2,13 +2,16 @@ package at.htl.survey.model;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 
 class GeraetTest {
 
     Raum raum252 = new Raum("252", 2);
-    Geraet geraet = new Geraet();
+    List<Geraet> geraet = new ArrayList<>();
     Kategorie bildschirm = new Kategorie("Bildschirme");
     Firma hp = new Firma("HP");
 

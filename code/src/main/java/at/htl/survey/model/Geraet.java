@@ -1,10 +1,12 @@
 package at.htl.survey.model;
 
+import java.util.List;
+
 public class Geraet {
 
     private int geraeteNr;
     private Raum raum;
-    private Geraet geraet;
+    private List<Geraet> geraet;
     private Kategorie kategorie;
     private Firma firma;
     private boolean kabellos;
@@ -13,7 +15,7 @@ public class Geraet {
     public Geraet() {
     }
 
-    public Geraet(int geraeteNr, Raum raum, Geraet geraet, Kategorie kategorie, Firma firma, boolean kabellos, boolean austauschbar) {
+    public Geraet(int geraeteNr, Raum raum, List<Geraet> geraet, Kategorie kategorie, Firma firma, boolean kabellos, boolean austauschbar) {
         this.geraeteNr = geraeteNr;
         this.raum = raum;
         this.geraet = geraet;
@@ -35,11 +37,11 @@ public class Geraet {
         this.raum = raum;
     }
 
-    public Geraet getGeraet() {
-        return geraet;
+    public List<Geraet> getGeraet() {
+        return  this.geraet;
     }
 
-    public void setGeraet(Geraet geraet) {
+    public void setGeraet(List<Geraet> geraet) {
         this.geraet = geraet;
     }
 
