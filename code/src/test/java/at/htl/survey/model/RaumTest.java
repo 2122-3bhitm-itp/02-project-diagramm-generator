@@ -21,5 +21,22 @@ class RaumTest {
         assertThat(raum252.getDescr()).isEqualTo("home of 3bhitm");
 
 
+        Raum raum74E = new Raum("74E", 0);
+
+        raum74E.setDescr("home of Herr Professor Baar");
+
+        assertThat(raum74E.getStockwerk()).isEqualTo(0);
+        assertThat(raum74E.getRaumNr()).isEqualTo("74E");
+        assertThat(raum74E.getDescr()).isEqualTo("home of Herr Professor Baar");
+
+
+        Raum edv10 = new Raum("135", 1);
+
+        edv10.setDescr("immer belegt");
+
+        assertThat(edv10.getStockwerk()).isEqualTo(1);
+        assertThat(edv10.getRaumNr()).isEqualTo("135");
+        assertThat(edv10.getDescr()).isEqualTo("immer belegt");
+
     }
 }

@@ -14,5 +14,19 @@ class KategorieTest {
         bildschirm.setCategoryName("Bildschirme");
 
         assertThat(bildschirm.getCategoryName()).isEqualTo("Bildschirme");
+
+
+        Kategorie computer = new Kategorie("asdf");
+
+        computer.setCategoryName("Computer");
+
+        assertThat(computer.getCategoryName()).isEqualTo("Computer");
+
+
+        Kategorie kabel = new Kategorie("qwertzu");
+
+        kabel.setCategoryName("Kabel");
+
+        assertThat(kabel.getCategoryName()).isEqualTo("Kabel");
     }
 }

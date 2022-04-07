@@ -14,6 +14,20 @@ class FirmaTest {
         hp.setName("HP");
 
         assertThat(hp.getName()).isEqualTo("HP");
+
+
+        Firma iiyama = new Firma("dfg");
+
+        iiyama.setName("iiyama");
+
+        assertThat(iiyama.getName()).isEqualTo("iiyama");
+
+
+        Firma apple = new Firma("orange");
+
+        apple.setName("Apple");
+
+        assertThat(apple.getName()).isEqualTo("Apple");
     }
 
 }
