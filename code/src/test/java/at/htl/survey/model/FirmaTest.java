@@ -8,6 +8,19 @@ import static org.assertj.core.api.Assertions.*;
 class FirmaTest {
 
     @Test
+    void userStory() {
+        Firma hp = new Firma("HP");
+        hp.setWas("Bewertungen zu verkauften Produkten");
+        hp.setWarum("Verbesserung von Produkten mit schlechter Bewertung");
+
+        assertThat(hp.getName()).isEqualTo("HP");
+        assertThat(hp.getWas()).isEqualTo("Bewertungen zu verkauften Produkten");
+        assertThat(hp.getWarum()).isEqualTo("Verbesserung von Produkten mit schlechter Bewertung");
+
+        System.out.println("Als " + hp.getName() + " wollen wir " + hp.getWas() + ", fuer " + hp.getWarum());
+    }
+
+    @Test
     void createFirma() {
         Firma hp = new Firma("test");
 
@@ -29,5 +42,7 @@ class FirmaTest {
 
         assertThat(apple.getName()).isEqualTo("Apple");
     }
+
+
 
 }

@@ -12,6 +12,9 @@ public class Geraet {
     private boolean kabellos;
     private boolean austauschbar;
 
+    private String was;
+    private String warum;
+
     public Geraet() {
     }
 
@@ -23,6 +26,22 @@ public class Geraet {
         this.firma = firma;
         this.kabellos = kabellos;
         this.austauschbar = austauschbar;
+    }
+
+    public String getWas() {
+        return was;
+    }
+
+    public void setWas(String was) {
+        this.was = was;
+    }
+
+    public String getWarum() {
+        return warum;
+    }
+
+    public void setWarum(String warum) {
+        this.warum = warum;
     }
 
     public int getGeraeteNr() {

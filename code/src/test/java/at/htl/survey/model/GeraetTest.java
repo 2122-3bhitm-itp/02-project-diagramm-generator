@@ -10,6 +10,21 @@ import static org.assertj.core.api.Assertions.*;
 
 class GeraetTest {
 
+    @Test
+    void userStory() {
+        String sysadmin = "Systemadministrator";
+
+        Geraet klassenBildschirm = new Geraet(1234, raum252, geraet, bildschirm, iiyama, false, true);
+        klassenBildschirm.setWas("alle Detailinformationen von jedem Geraet");
+        klassenBildschirm.setWarum("die Identifikation und Zuordnung des jeweiligen Geraets");
+
+        assertThat(klassenBildschirm.getGeraeteNr()).isEqualTo(1234);
+        assertThat(klassenBildschirm.getWas()).isEqualTo("alle Detailinformationen von jedem Geraet");
+        assertThat(klassenBildschirm.getWarum()).isEqualTo("die Identifikation und Zuordnung des jeweiligen Geraets");
+
+        System.out.println("Als " + sysadmin + " will ich " + klassenBildschirm.getWas() + ", fuer " + klassenBildschirm.getWarum());
+    }
+
     Raum raum252 = new Raum("252", 2);
     List<Geraet> geraet = new ArrayList<>();
     Kategorie bildschirm = new Kategorie("Bildschirme");

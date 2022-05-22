@@ -8,6 +8,21 @@ import static org.assertj.core.api.Assertions.*;
 class RaumTest {
 
     @Test
+    void userStory() {
+        String sysadmin = "Systemadministrator";
+
+        Raum raum = new Raum("1", 0);
+        raum.setWas("korrekte Raumnummern");
+        raum.setWarum("eine sortierte Uebersicht nach Nummern und Stockwerken");
+
+        assertThat(raum.getRaumNr()).isEqualTo("1");
+        assertThat(raum.getWas()).isEqualTo("korrekte Raumnummern");
+        assertThat(raum.getWarum()).isEqualTo("eine sortierte Uebersicht nach Nummern und Stockwerken");
+
+        System.out.println("Als " + sysadmin + " will ich " + raum.getWas() + ", fuer " + raum.getWarum());
+    }
+
+    @Test
     void createRaum() {
         // arrange
         Raum raum252 = new Raum("252", 2);
