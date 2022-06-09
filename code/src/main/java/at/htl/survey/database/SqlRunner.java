@@ -19,6 +19,7 @@ public class SqlRunner {
 
     public static void main(String[] args) {
         dropAndCreateTables();
+        runScript(SqlScript.INSERT);
     }
 
     public static void dropAndCreateTables() {

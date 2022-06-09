@@ -27,7 +27,7 @@ Create TABLE Geraet
     kategorieNr BIGINT,
     raumNr      BIGINT,
     partOf      BIGINT,
-    configFile  Blob,
+
 
     FOREIGN KEY (kategorieNr) REFERENCES Kategorie (kategorieNr),
     FOREIGN KEY (firmenNr) REFERENCES Firma (firmenNr),
