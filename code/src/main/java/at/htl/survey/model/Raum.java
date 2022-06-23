@@ -3,12 +3,12 @@ package at.htl.survey.model;
 public class Raum {
 
     private final String raumNr;
-    private final int stockwerk;
+    private final String stockwerk;
     private String descr;
     private String was;
     private String warum;
 
-    public Raum(String raumNr, int stockwerk) {
+    public Raum(String raumNr, String stockwerk) {
         this.raumNr = raumNr;
         this.stockwerk = stockwerk;
     }
@@ -33,7 +33,7 @@ public class Raum {
         return raumNr;
     }
 
-    public int getStockwerk() {
+    public String getStockwerk() {
         return stockwerk;
     }
 
@@ -43,6 +43,17 @@ public class Raum {
 
     public void setDescr(String descr) {
         this.descr = descr;
+    }
+
+    @Override
+    public String toString() {
+        return "Raum{" +
+                "raumNr='" + raumNr + '\'' +
+                ", stockwerk='" + stockwerk + '\'' +
+                ", descr='" + descr + '\'' +
+                ", was='" + was + '\'' +
+                ", warum='" + warum + '\'' +
+                '}';
     }
 }
 

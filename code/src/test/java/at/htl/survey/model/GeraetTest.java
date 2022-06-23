@@ -14,7 +14,7 @@ class GeraetTest {
     void userStory() {
         String sysadmin = "Systemadministrator";
 
-        Geraet klassenBildschirm = new Geraet(1234, raum252, geraet, bildschirm, iiyama, false, true);
+        Geraet klassenBildschirm = new Geraet(1234, raum252, geraet, bildschirm, iiyama, false, true, 1234);
         klassenBildschirm.setWas("alle Detailinformationen von jedem Geraet");
         klassenBildschirm.setWarum("die Identifikation und Zuordnung des jeweiligen Geraets");
 
@@ -25,14 +25,14 @@ class GeraetTest {
         System.out.println("Als " + sysadmin + " will ich " + klassenBildschirm.getWas() + ", fuer " + klassenBildschirm.getWarum());
     }
 
-    Raum raum252 = new Raum("252", 2);
+    Raum raum252 = new Raum("252", "2");
     List<Geraet> geraet = new ArrayList<>();
-    Kategorie bildschirm = new Kategorie("Bildschirme");
-    Firma iiyama = new Firma("iiyama");
+    Kategorie bildschirm = new Kategorie(1,"Bildschirme");
+    Firma iiyama = new Firma(1, "iiyama");
 
     @Test
     void createGeraet() {
-        Geraet klassenBildschirm = new Geraet(1234, raum252, geraet, bildschirm, iiyama, false, true);
+        Geraet klassenBildschirm = new Geraet(1234, raum252, geraet, bildschirm, iiyama, false, true, 1234);
 
         assertThat(klassenBildschirm.getGeraeteNr()).isEqualTo(1234);
         assertThat(klassenBildschirm.getRaum()).isEqualTo(raum252);

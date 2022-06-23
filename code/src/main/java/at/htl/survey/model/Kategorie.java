@@ -1,13 +1,13 @@
 package at.htl.survey.model;
 
 public class Kategorie {
-    private static int categoryId = 0;
+    private final int categoryId;
     private String categoryName;
     private String was;
     private String warum;
 
-    public Kategorie(String categoryName) {
-        this.categoryId = ++categoryId;
+    public Kategorie(int categoryId, String categoryName) {
+        this.categoryId = categoryId;
         this.categoryName = categoryName;
     }
 
@@ -35,7 +35,18 @@ public class Kategorie {
         return categoryName;
     }
 
+    @Override
+    public String toString() {
+        return "Kategorie{" +
+                "categoryName='" + categoryName + '\'' +
+                ", was='" + was + '\'' +
+                ", warum='" + warum + '\'' +
+                '}';
+    }
+
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
+
+
     }
 }

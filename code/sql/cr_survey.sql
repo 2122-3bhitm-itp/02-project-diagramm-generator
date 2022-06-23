@@ -21,7 +21,7 @@ CREATE TABLE Kategorie
 Create TABLE Geraet
 (
     geraetNr    bigint primary key,
-    austaushbar boolean,
+    austauschbar boolean,
     kabellos    boolean,
     firmenNr    BIGINT,
     kategorieNr BIGINT,

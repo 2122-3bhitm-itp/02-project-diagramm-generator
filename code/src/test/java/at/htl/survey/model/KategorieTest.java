@@ -11,7 +11,7 @@ class KategorieTest {
     void userStory() {
         String sysadmin = "Systemadministrator";
 
-        Kategorie computer = new Kategorie("computer");
+        Kategorie computer = new Kategorie(1, "computer");
         computer.setWas("valide Kategorienamen");
         computer.setWarum("die Kategorisierung der Geraete");
 
@@ -24,21 +24,21 @@ class KategorieTest {
 
     @Test
     void createKategorie() {
-        Kategorie bildschirm = new Kategorie("test");
+        Kategorie bildschirm = new Kategorie(1, "test");
 
         bildschirm.setCategoryName("Bildschirme");
 
         assertThat(bildschirm.getCategoryName()).isEqualTo("Bildschirme");
 
 
-        Kategorie computer = new Kategorie("asdf");
+        Kategorie computer = new Kategorie(1, "asdf");
 
         computer.setCategoryName("Computer");
 
         assertThat(computer.getCategoryName()).isEqualTo("Computer");
 
 
-        Kategorie kabel = new Kategorie("qwertzu");
+        Kategorie kabel = new Kategorie(1, "qwertzu");
 
         kabel.setCategoryName("Kabel");
 

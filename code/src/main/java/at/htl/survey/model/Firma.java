@@ -1,12 +1,12 @@
 package at.htl.survey.model;
 
 public class Firma {
-    private static int firmenNr = 0;
     private String name;
+    private int firmenNr;
     private String was;
     private String warum;
-    public Firma(String name) {
-        this.firmenNr = ++firmenNr;
+    public Firma(int firmenr,String name) {
+        this.firmenNr =firmenr;
         this.name = name;
     }
 
@@ -36,5 +36,14 @@ public class Firma {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Firma{" +
+                "name='" + name + '\'' +
+                ", was='" + was + '\'' +
+                ", warum='" + warum + '\'' +
+                '}';
     }
 }

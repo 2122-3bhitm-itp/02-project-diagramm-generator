@@ -11,6 +11,8 @@ public class Geraet {
     private Firma firma;
     private boolean kabellos;
     private boolean austauschbar;
+    private int partof;
+
 
     private String was;
     private String warum;
@@ -18,7 +20,19 @@ public class Geraet {
     public Geraet() {
     }
 
-    public Geraet(int geraeteNr, Raum raum, List<Geraet> geraet, Kategorie kategorie, Firma firma, boolean kabellos, boolean austauschbar) {
+    public void setGeraeteNr(int geraeteNr) {
+        this.geraeteNr = geraeteNr;
+    }
+
+    public int getPartof() {
+        return partof;
+    }
+
+    public void setPartof(int partof) {
+        this.partof = partof;
+    }
+
+    public Geraet(int geraeteNr, Raum raum, List<Geraet> geraet, Kategorie kategorie, Firma firma, boolean kabellos, boolean austauschbar, int partof) {
         this.geraeteNr = geraeteNr;
         this.raum = raum;
         this.geraet = geraet;
@@ -26,6 +40,7 @@ public class Geraet {
         this.firma = firma;
         this.kabellos = kabellos;
         this.austauschbar = austauschbar;
+        this.partof = partof;
     }
 
     public String getWas() {
@@ -57,7 +72,7 @@ public class Geraet {
     }
 
     public List<Geraet> getGeraet() {
-        return  this.geraet;
+        return this.geraet;
     }
 
     public void setGeraet(List<Geraet> geraet) {
@@ -94,5 +109,21 @@ public class Geraet {
 
     public void setAustauschbar(boolean austauschbar) {
         this.austauschbar = austauschbar;
+    }
+
+    @Override
+    public String toString() {
+        return "Geraet{" +
+                "geraeteNr=" + geraeteNr +
+                ", raum=" + raum +
+                ", geraet=" + geraet +
+                ", kategorie=" + kategorie +
+                ", firma=" + firma +
+                ", kabellos=" + kabellos +
+                ", austauschbar=" + austauschbar +
+                ", partof=" + partof +
+                ", was='" + was + '\'' +
+                ", warum='" + warum + '\'' +
+                '}';
     }
 }

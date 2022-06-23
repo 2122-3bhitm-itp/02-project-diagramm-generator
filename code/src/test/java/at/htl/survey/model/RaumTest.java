@@ -11,7 +11,7 @@ class RaumTest {
     void userStory() {
         String sysadmin = "Systemadministrator";
 
-        Raum raum = new Raum("1", 0);
+        Raum raum = new Raum("1", "0");
         raum.setWas("korrekte Raumnummern");
         raum.setWarum("eine sortierte Uebersicht nach Nummern und Stockwerken");
 
@@ -25,7 +25,7 @@ class RaumTest {
     @Test
     void createRaum() {
         // arrange
-        Raum raum252 = new Raum("252", 2);
+        Raum raum252 = new Raum("252", "2");
 
         // act
         raum252.setDescr("home of 3bhitm");
@@ -36,7 +36,7 @@ class RaumTest {
         assertThat(raum252.getDescr()).isEqualTo("home of 3bhitm");
 
 
-        Raum raum74E = new Raum("74E", 0);
+        Raum raum74E = new Raum("74E", "0");
 
         raum74E.setDescr("home of Herr Professor Baar");
 
@@ -45,7 +45,7 @@ class RaumTest {
         assertThat(raum74E.getDescr()).isEqualTo("home of Herr Professor Baar");
 
 
-        Raum edv10 = new Raum("135", 1);
+        Raum edv10 = new Raum("135", "1");
 
         edv10.setDescr("immer belegt");
 

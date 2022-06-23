@@ -1,6 +1,10 @@
 package at.htl.survey.database;
 
 import at.htl.survey.controller.Database;
+import at.htl.survey.model.Firma;
+import at.htl.survey.model.Geraet;
+import at.htl.survey.model.Kategorie;
+import at.htl.survey.model.Raum;
 import org.apache.ibatis.jdbc.ScriptRunner;
 
 
@@ -11,6 +15,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 public class SqlRunner {
@@ -18,8 +24,22 @@ public class SqlRunner {
     private static final String SCRIPT_PROPERTIES_PATH = "sql/script-files.properties";
 
     public static void main(String[] args) {
-        dropAndCreateTables();
-        runScript(SqlScript.INSERT);
+        Raum raum252 = new Raum("1", "2");
+        List<Geraet> geraet = new ArrayList<>();
+        Kategorie bildschirm = new Kategorie(1,"Bildschirme");
+        Firma iiyama = new Firma(1,"iiyama");
+        Geraet probe = new Geraet(3, raum252, geraet, bildschirm, iiyama, false, false, 1);
+
+        // dropAndCreateTables();
+        // runScript(SqlScript.INSERT);
+        GeraetRepository geraetRepository = new GeraetRepository();
+        System.out.println(geraetRepository.getGeraet(1));
+        System.out.println(geraetRepository.getGeraete());
+        geraetRepository.insertGeraet(probe);
+        probe.setAustauschbar(true);
+        probe.setPartof(1);
+        geraetRepository.updateGeraet(probe);
+        geraetRepository.deleteGeraet(2);
     }
 
     public static void dropAndCreateTables() {
