@@ -84,7 +84,9 @@ Projektteam +
 ----
 include::plantuml/erd.puml[]
 ----
-
+Es gibt Firmen, jede von ihnen kann meherere Geräte besitzen, jedes Gerät kann jedoch nur einer Firma zugehörig sein.
+In jedem Raum können sich mehrere Geräte verschiedener Firmen befinden, die einzelnen Geräte gehören immer zu einem einzigen Raum.
+Jedes Gerät gehört einer Kategorie an. Jeder Kategorie können mehrere Geräte verschiedener Firmen und Räume zugehören.
 
 ////
 == CLD (im Code)
