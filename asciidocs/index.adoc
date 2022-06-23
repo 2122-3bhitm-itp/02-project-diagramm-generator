@@ -71,9 +71,11 @@ Mithilfe unseres Projektes kann man einfach und übersichtlich alle Geräte eine
 
 === Projektorganisation
 
-Projektleiter: Abdulrahman Al Sabagh: Zuständig für Model, Controller und Deployment
+Projektleiter: 
 
-Projektteam +
+- Abdulrahman Al Sabagh: Zuständig für Model, Controller und Deployment
+
+Projektteam:
 
 - Moritz Eder: Zuständig für Unitests +
 - Mona Angerer: Zuständig für View und Controller
@@ -97,8 +99,6 @@ include::plantuml/code-cld.puml[]
 ----
 ////
 
-Techniker können innerhalb eines Gebäudes Geräte hinzufügen, die bereits implemenitierten Geräte warten und Geräte entfernen. Dabei wird an die jeweiligen Wartungstermine der Geräte errinnert. 
-
 
 === Anwendungsfalldiagramm
 
@@ -106,6 +106,9 @@ Techniker können innerhalb eines Gebäudes Geräte hinzufügen, die bereits imp
 ----
 include::plantuml/ucd.puml[]
 ----
+
+
+Techniker können innerhalb eines Gebäudes Geräte hinzufügen, die bereits implemenitierten Geräte warten und Geräte entfernen. Dabei wird an die jeweiligen Wartungstermine der Geräte errinnert. 
 
 == Pflichtenheft
 
