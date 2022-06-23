@@ -30,8 +30,8 @@ public class SqlRunner {
         Firma iiyama = new Firma(1,"iiyama");
         Geraet probe = new Geraet(3, raum252, geraet, bildschirm, iiyama, false, false, 1);
 
-        // dropAndCreateTables();
-        // runScript(SqlScript.INSERT);
+        dropAndCreateTables();
+         runScript(SqlScript.INSERT);
         GeraetRepository geraetRepository = new GeraetRepository();
         System.out.println(geraetRepository.getGeraet(1));
         System.out.println(geraetRepository.getGeraete());

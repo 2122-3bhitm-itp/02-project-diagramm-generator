@@ -71,9 +71,11 @@ Mithilfe unseres Projektes kann man einfach und übersichtlich alle Geräte eine
 
 === Projektorganisation
 
-Projektleiter: Abdulrahman Al Sabagh: Zuständig für Model, Controller und Deployment
+Projektleiter: 
 
-Projektteam +
+- Abdulrahman Al Sabagh: Zuständig für Model, Controller und Deployment
+
+Projektteam:
 
 - Moritz Eder: Zuständig für Unitests +
 - Mona Angerer: Zuständig für View und Controller
@@ -84,7 +86,9 @@ Projektteam +
 ----
 include::plantuml/erd.puml[]
 ----
-
+Es gibt Firmen, jede von ihnen kann meherere Geräte besitzen, jedes Gerät kann jedoch nur einer Firma zugehörig sein.
+In jedem Raum können sich mehrere Geräte verschiedener Firmen befinden, die einzelnen Geräte gehören immer zu einem einzigen Raum.
+Jedes Gerät gehört einer Kategorie an. Jeder Kategorie können mehrere Geräte verschiedener Firmen und Räume zugehören.
 
 ////
 == CLD (im Code)
@@ -103,6 +107,9 @@ include::plantuml/code-cld.puml[]
 include::plantuml/ucd.puml[]
 ----
 
+
+Techniker können innerhalb eines Gebäudes Geräte hinzufügen, die bereits implemenitierten Geräte warten und Geräte entfernen. Dabei wird an die jeweiligen Wartungstermine der Geräte errinnert. 
+
 == Pflichtenheft
 
 === Ausgangssituation
@@ -118,16 +125,17 @@ Für die neu installierten Bildschirme in vielen Klassenräumen in der HTL Leond
 Für jeden neuen Bildschirm und andere Geräte wird man sich diese Fragen stellen können:
 
 * Wie ist das Gerät identifizierbar?
-* Von welcher Firma kommen es?
+* Welcher Firma gehört das Gerät an?
 * Ist es austauschbar?
 * Ist es kabellos?
 * In welchem Stockwerk befindet sich es?
 * In welchem Raum steht es?
-* Zu welcher Kategorie ist es  zugewiesen?
+* Welcher Kategorie ist es zugewiesen?
+* Wann muss es als nächstes gewartet werden?
 
 === Ziele
 
-Ziel ist eine funktionierende, benutzerfreundliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet werden können und Geräte hinzugefügt, sowie entfernt werden können. Das Programm wird am Ende des Schuljahres fertiggestellt sein.
+Ziel ist eine funktionierende, benutzerfreundliche Anwendung mit der einfach und unkompliziert alle Geräte eines Gebäudes verwaltet, Geräte hinzugefügt, sowie entfernt werden können. Das Programm wird am Ende des Schuljahres fertiggestellt sein.
 
 ////
 === Mengengerüst

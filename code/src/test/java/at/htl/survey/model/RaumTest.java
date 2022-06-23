@@ -31,7 +31,7 @@ class RaumTest {
         raum252.setDescr("home of 3bhitm");
 
         //assert
-        assertThat(raum252.getStockwerk()).isEqualTo(2);
+        assertThat(raum252.getStockwerk()).isEqualTo("2");
         assertThat(raum252.getRaumNr()).isEqualTo("252");
         assertThat(raum252.getDescr()).isEqualTo("home of 3bhitm");
 
@@ -40,7 +40,7 @@ class RaumTest {
 
         raum74E.setDescr("home of Herr Professor Baar");
 
-        assertThat(raum74E.getStockwerk()).isEqualTo(0);
+        assertThat(raum74E.getStockwerk()).isEqualTo("0");
         assertThat(raum74E.getRaumNr()).isEqualTo("74E");
         assertThat(raum74E.getDescr()).isEqualTo("home of Herr Professor Baar");
 
@@ -49,7 +49,7 @@ class RaumTest {
 
         edv10.setDescr("immer belegt");
 
-        assertThat(edv10.getStockwerk()).isEqualTo(1);
+        assertThat(edv10.getStockwerk()).isEqualTo("1");
         assertThat(edv10.getRaumNr()).isEqualTo("135");
         assertThat(edv10.getDescr()).isEqualTo("immer belegt");
 
