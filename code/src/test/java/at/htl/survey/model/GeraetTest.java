@@ -4,11 +4,18 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import at.htl.survey.model.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 
 class GeraetTest {
+
+
+    Raum raum252 = new Raum("252", 2);
+    List<Geraet> geraet = new ArrayList<>();
+    Kategorie bildschirm = new Kategorie("Bildschirme");
+    Firma iiyama = new Firma("iiyama");
 
     @Test
     void userStory() {
@@ -24,11 +31,6 @@ class GeraetTest {
 
         System.out.println("Als " + sysadmin + " will ich " + klassenBildschirm.getWas() + ", fuer " + klassenBildschirm.getWarum());
     }
-
-    Raum raum252 = new Raum("252", 2);
-    List<Geraet> geraet = new ArrayList<>();
-    Kategorie bildschirm = new Kategorie("Bildschirme");
-    Firma iiyama = new Firma("iiyama");
 
     @Test
     void createGeraet() {
