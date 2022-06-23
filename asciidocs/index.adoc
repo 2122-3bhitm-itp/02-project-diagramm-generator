@@ -97,6 +97,8 @@ include::plantuml/code-cld.puml[]
 ----
 ////
 
+Techniker können innerhalb eines Gebäudes Geräte hinzufügen, die bereits implemenitierten Geräte warten und Geräte entfernen. Dabei wird an die jeweiligen Wartungstermine der Geräte errinnert. 
+
 
 === Anwendungsfalldiagramm
 
